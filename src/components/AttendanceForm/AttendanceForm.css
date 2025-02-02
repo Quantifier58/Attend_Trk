@@ -1,0 +1,99 @@
+body {
+  background: #c5d1df;
+}
+
+.attendance-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #a8b8ca;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .h2-style {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  
+  .h3-style {
+    border-bottom: 1.7px solid #333;
+    font-weight: 550;
+  }
+  
+  .content-container {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 1.8rem;
+    margin-top: 14px;
+  }
+  
+  .label-style {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    text-align: left;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input-style {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1.9px dashed #88a6e0;
+    border-radius: 7px;
+    margin: 5px;
+    background: #dfe1e4;
+  }
+  
+  .button-style {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .refresh-button-style {
+    position: absolute;
+    top: 105px;
+    right: 10px;
+    font-size: 1rem;
+    background: #dfe1e4;
+    color: #87a2c9;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1.8px solid #88a6e0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .github-icon-style {
+    width: 30px;
+    height: 30px;
+  }
+  
